@@ -1,0 +1,25 @@
+:root{
+    --bg-red: #e7272d ;
+    --bg-black: #0e0e0e ;
+    --bg-White: #ffffff ;
+     --bg-lightblack: #232323 ;
+    --bg-lightgrey: #cccccc ;
+    --bg-yellow: #ffae00 ;
+    --bg-yellow-hover: #b57600 ;
+    --bg-grey: #808080 ;
+    --bg-green: #89b758 ;
+    --bg-teamcard:rgb(255, 240, 213);
+    --bg-primary:rgb(92, 160, 255);
+   
+
+    --color-primary:rgb(59, 80, 200);
+    --color-red: #e7272d ;
+    --color-black: #0e0e0e ;
+    --color-white: #ffffff ;
+     --color-lightblack: #232323 ;
+    --color-lightgrey: #cccccc ;
+    --color-yellow: #ffae00 ;
+    --color-grey: #6a6a6a ;
+    --color-green: #89b758 ;
+    
+}

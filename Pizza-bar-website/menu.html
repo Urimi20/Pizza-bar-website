@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+       
+        #menu {
+            background-color: var(--bg-white);
+            color: var(--color-black);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+           
+          
+        }
+        
+        .navbar .navbar-collapse {
+            flex-grow: initial;
+    height: 30px;
+    
+    
+
+}
+.buy-now{
+    background-color:#fff;
+    width: 100px;
+    border-radius:  50px; ;
+    display: flex   ;
+    justify-content: end;
+    align-items: center;
+    height: 30px;
+   
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 10px;
+  padding-right: 150px;
+  
+}
+    .nav-item{
+     margin-top: -50px;
+      margin-left:50px ;
+      text-decoration: none;
+      font-size: 25px;
+  
+  }
+  .nav .link{
+    text-decoration: none;
+  }
+
+.nav-logo {
+    width: 70px;
+    margin-left: -30px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.nav-p {
+    display: flex;
+    margin-left: 200px;
+   margin-top: -50px;
+    font-family:     'Permanent Marker', cursive ;
+    
+    color: white;
+    font-weight: 900;
+}
+
+        #menu h3 {
+            padding-top: 50px;
+            color: var(--color-red);
+            font-family: cursive;
+            font-size: 30px;
+            font-weight: 900;
+            margin-left: -70px;
+            text-align: center;
+            
+
+        }
+
+        #menu h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 80px;
+            width: 900px;
+            margin-left: 0px;
+            font-weight: 100;
+            padding-bottom: 100px;
+        }
+
+       
+
+        #menu .food h4 {
+            width: 100px;
+            height: 35px;
+            background-color: var(--bg-red);
+            color: var(--color-white);
+            border-radius: 10px;
+            font-family: 'roboto';
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          margin-top: 50px;
+        }
+        #menu .col-6{
+            padding: 50px;
+       
+        }
+
+        /*backround dashed 1px*/
+        #menu .price {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin-top: 20px;
+        }
+
+    
+        #menu .money {
+            margin-left: 2%;
+            margin-top: -50px;
+        }
+
+        #menu p {
+            text-align: start;
+        }
+
+        #menu button {
+            width: 220px;
+            height: 50px;
+            background-color: var(--bg-red);
+            color: white;
+            border-radius: 50px;
+            border: none;
+            margin-top: 50px;
+
+        }   
+
+        #footer p{
+         
+        }
+    </style>
+</head>
+
+<body>
+
+
+    
+  <nav class="navbar navbar-expand-lg " style="background-color:var(--bg-lightblack) ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="margin-left: 150px;"><img src="img/logo.png" alt="" class="nav-logo">
+        <p class="nav-p">DinnerM4 </p>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item  ">
+            <a style=" color: white;" class="nav-link active" aria-current="page" href="#home"
+              class="">
+              <h6>Home</h6>
+            </a>
+          </li>
+          <li class="nav-item link  ">
+            <a style=" color: white; " class="nav-link active" aria-current="page"
+              href="#menu " class="link">
+              <h6>Menu</h6>
+            </a>
+          </li>
+          <li class="nav-item buy-now">
+            <a style=" color: black; background-color: #ffffff; border-radius: 40px; text-align: center; width: 100px;"
+              class="nav-link active" aria-current="page" href="#footer">
+              <h6>Buy Now</h6>
+            </a>
+          </li>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+
+                <div class="title">
+
+
+                    <h3>MENU</h3>
+                    <h1>Choose your dish</h1>
+                </div>
+                <div class="col-6 left">
+                    <div class="food">
+                        <h4>Sushi</h4>
+                    </div>
+                    <div class="price">
+                        <h2>Salmon Pizza . . . . . . . . . . . . . . . . . . . . . .</h2>
+                        <h3 class="money">$18</h3>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                        illum
+                        incidunt
+                        nam placeat.</p>
+
+
+
+                    <div class="food" style="width: 120px;">
+                        <h4>Thai Food</h4>
+                    </div>
+                    <div class="price">
+                        <h2>Spicy Fish Pizza . . . . . . . . . . . . . . . . . . . . </h2>
+                        <h3 class="money">$28</h3>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                        illum
+                        incidunt
+                        nam placeat.</p>
+
+
+
+                    <div class="food">
+                        <h4>Pizza</h4>
+                    </div>
+                    <div class="price">
+                        <h2>Mozarella Piza . . . . . . . . . . . . . . . . . . . . .</h2>
+                        <h3 class="money">$14</h3>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                        illum
+                        incidunt
+                        nam placeat.</p>
+
+
+                    <div class="food">
+                        <h4>Sushi</h4>
+                    </div>
+                    <div class="price">
+                        <h2>Salmon Pizza . . . . . . . . . . . . . . . . . . . . . .</h2>
+                        <h3 class="money">$18</h3>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                        illum
+                        incidunt
+                        nam placeat.</p>
+                </div>
+
+                <div class="col-6 right">
+                    <div class="food" style="width: 120px;">
+                        <h4>Thai Food</h4>
+                    </div>
+                    <div class="price">
+                        <h2>Spicy Fish Pizza . . . . . . . . . . . . . . . . . . . . </h2>
+                        <h3 class="money">$28</h3>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                        illum
+                        incidunt
+                        nam placeat.</p>
+
+                    <div class="food">
+                        <h4>Pizza</h4>
+                    </div>
+                    <div class="price">
+                        <h2>Mozarella Pizza . . . . . . . . . . . . . . . . . . . . </h2>
+                        <h3 class="money">$14</h3>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                        illum
+                        incidunt
+                        nam placeat.</p>
+
+                    <div class="food">
+                        <h4>Sushi</h4>
+                    </div>
+                    <div class="price">
+                        <h2>Salmon Pizza . . . . . . . . . . . . . . . . . . . . . . </h2>
+                        <h3 class="money">$18</h3>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                        illum
+                        incidunt
+                        nam placeat.</p>
+
+                    <div class="food">
+                        <h4>Pizza </h4>
+                    </div>
+                    <div class="price">
+                        <h2>Mozarella Pizza . . . . . . . . . . . . . . . . . . . . </h2>
+                        <h3 class="money">$14</h3>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                        illum
+                        incidunt
+                        nam placeat.</p>
+
+
+                       
+                        
+                    </div>
+                    <div class="col-6 left">
+                        <div class="food">
+                            <h4>Sushi</h4>
+                        </div>
+                        <div class="price">
+                            <h2>Salmon Pizza . . . . . . . . . . . . . . . . . . . . . .</h2>
+                            <h3 class="money">$18</h3>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                            illum
+                            incidunt
+                            nam placeat.</p>
+    
+    
+    
+                        <div class="food" style="width: 120px;">
+                            <h4>Thai Food</h4>
+                        </div>
+                        <div class="price">
+                            <h2>Spicy Fish Pizza . . . . . . . . . . . . . . . . . . . . </h2>
+                            <h3 class="money">$28</h3>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                            illum
+                            incidunt
+                            nam placeat.</p>
+    
+    
+    
+                        <div class="food">
+                            <h4>Pizza</h4>
+                        </div>
+                        <div class="price">
+                            <h2>Mozarella Piza . . . . . . . . . . . . . . . . . . . . .</h2>
+                            <h3 class="money">$14</h3>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                            illum
+                            incidunt
+                            nam placeat.</p>
+    
+    
+                        <div class="food">
+                            <h4>Sushi</h4>
+                        </div>
+                        <div class="price">
+                            <h2>Salmon Pizza . . . . . . . . . . . . . . . . . . . . . .</h2>
+                            <h3 class="money">$18</h3>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                            illum
+                            incidunt
+                            nam placeat.</p>
+                    </div>
+    
+                    <div class="col-6 right">
+                        <div class="food" style="width: 120px;">
+                            <h4>Thai Food</h4>
+                        </div>
+                        <div class="price">
+                            <h2>Spicy Fish Pizza . . . . . . . . . . . . . . . . . . . . </h2>
+                            <h3 class="money">$28</h3>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                            illum
+                            incidunt
+                            nam placeat.</p>
+    
+                        <div class="food">
+                            <h4>Pizza</h4>
+                        </div>
+                        <div class="price">
+                            <h2>Mozarella Pizza . . . . . . . . . . . . . . . . . . . . </h2>
+                            <h3 class="money">$14</h3>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                            illum
+                            incidunt
+                            nam placeat.</p>
+    
+                        <div class="food">
+                            <h4>Sushi</h4>
+                        </div>
+                        <div class="price">
+                            <h2>Salmon Pizza . . . . . . . . . . . . . . . . . . . . . . </h2>
+                            <h3 class="money">$18</h3>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                            illum
+                            incidunt
+                            nam placeat.</p>
+    
+                        <div class="food">
+                            <h4>Pizza </h4>
+                        </div>
+                        <div class="price">
+                            <h2>Mozarella Pizza . . . . . . . . . . . . . . . . . . . . </h2>
+                            <h3 class="money">$14</h3>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et inventore corrupti expedita sit,
+                            illum
+                            incidunt
+                            nam placeat.</p>
+    
+    
+                </div>
+
+              
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    
+  <section id="footer">
+    <div class=" line1"></div>
+    <div class=" "> <img src="img/logo.png" alt="" class="pizza"></div>
+    <div class=" line2"></div>
+
+    <div class="col-12">
+      <div class="adres">
+        <h3>Address</h3>
+        <p style="margin-top: 20px;"> Vushtrri</p>
+        <p > Adress : Haxhi Zeka </p>
+        <p>Nr: 7</p>
+      </div>
+      <div class="book">
+        <h3> Book a table</h3>
+        <p style="margin-top: 20px;">  Dogfood och Sliders fooddruck</p>
+        <p > Under Om oss ni lasa</p>
+        <h2 style= " color: var(--color-yellow);"> 044-848-188</h2>
+      </div>
+      <div class="days">
+        <h3>Opening hours</h3>
+        <p style="margin-top: 20px;"> Monday-Friday</p>
+        <p> 10.00AM - 11.00PM</p>
+
+      </div>
+      <div class="instagram">
+        <h3 class="social">Social Media</h3>
+        <div class="  pizzas">
+         <a href="https://www.snapchat.com/add/urim_avdiu20?sender_web_id=5b56425b-4537-46eb-bfb2-31a283fc3962&device_type=desktop&is_copy_url=true"><img src="img/logo.png" alt="" class="pizzas"></a> 
+
+         <a href="https://www.facebook.com/urim.avdiu.773?mibextid=LQQJ4d"><img src="img/logo.png" alt="" class="pizzas"></a> 
+
+         <a href="https://discord.com/channels/1142127702455877764/1143111813903425596"><img src="img/logo.png" alt="" class="pizzas"></a> 
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+
+</html>

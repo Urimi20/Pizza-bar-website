@@ -1,0 +1,1089 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family-base);
+    font-size: 18px;
+    color: var(--color-base-text);
+    background: var(--color-base-bg);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+
+.navbar .navbar-collapse {
+    flex-grow: initial;
+    
+
+}
+
+ 
+
+.nav-logo {
+    width: 70px;
+    margin-left: 120px;
+    
+}
+
+.nav-p {
+    margin-left: 200px;
+   margin-top: -50px;
+    font-family:     'Permanent Marker', cursive ;
+    
+    color: white;
+    font-weight: 900;
+}
+
+#home {
+    background-color: var(--bg-lightblack);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+
+}
+
+
+#home .row {
+    color: var(--color-white);
+}
+
+
+
+#home .text {
+
+    
+
+}
+
+#home h4 {
+    color: var(--bg-yellow);
+
+}
+
+#home .line {
+    width: 100px;
+    height: 2px;
+   margin-top:-20px ;
+    margin-left: 280px;
+    background-color: var(--bg-yellow);
+}
+
+#home h1 {
+
+    color: var(--color-white);
+    margin-top: 30px;
+    font-family: 'Barlow' sans-serif ;
+    /*'Barlow', sans-serif (for big text)*/
+
+    font-weight: 900;
+    font-size: 110px;
+}
+
+#home p {
+    font-family: 'Roboto';
+}
+
+#home .btn {
+    width: 250px;
+    height: 50px;
+    background-color: var(--bg-yellow);
+    border-radius: 50px;
+    font-family: 'Roboto';
+    margin-top: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    
+}
+
+#home .shoping-icon {
+    width: 50px;
+    padding: 15px;
+    
+   
+}
+
+#home .pizza {
+    width: 500px;
+   margin-left: 100px;
+   margin-top: -100px;
+   transition: transform 2s;
+   animation: infinite;
+}
+#home .pizza:hover{
+    transform: rotate(360deg);
+}
+#home .price {
+    width: 200px;
+    background-color: var(--bg-yellow);
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: auto;
+    color: var(--color-red);
+    margin-top: -50px;
+    margin-left: 50px;
+    transition: transform ;
+    animation: infinite;
+}
+#home .price:hover{
+    background-color: var(  --bg-yellow-hover   
+    )
+}
+
+#home h6 {
+    margin-left: -20px;
+    margin-top: -80px;
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--color-black);
+    font-family: 'Barlow';
+}
+
+#home h3 {
+
+    font-weight: 500;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: -20px;
+
+}
+
+
+@media (max-width:1200px) {
+    body{
+      width: 1650px;
+      
+    }
+    nav{
+      width: 1650px;
+    }
+      #home{
+      width: 1650px;
+      height: 100%;
+      
+     }
+     #home .img{
+      margin-top:0px;
+      margin-left:00px ;
+  
+     }
+     #home .text{
+      width: 500px;
+      margin-left: -50px;
+      height: 500px;
+     }
+     #free-pizza .col-6{
+        margin-left:-50px ;
+     }
+     #welcome .col-6{
+        height: 600px;
+        width: 600px;
+        margin-left: -50px;
+     }
+     #welcome .mp{
+        margin-left:500px ;
+        margin-top: -500px;
+     }
+     #Menu .container{
+       
+     }
+     #Menu .col-4 .pizza{
+      margin-left: 180px;
+     }
+     #Menu .right{
+      margin-top: 0px;
+     }
+     
+
+     #menu {
+        width: 100%;
+        height: 1000px;
+     }
+     #menu  .left{
+margin-left: -100px;
+     }
+     #menu .right{
+        margin-left: 150px;
+        width: 430px;
+     }
+     #menu .title{
+        margin-left: -200px;
+     }
+     #menu .title h3{
+        margin-left: 350px;
+     }
+
+     #team .container{
+        margin-left: 180px;
+     }
+
+  }
+  
+
+@media (max-width:1000px) {
+  body{
+    width: 1900px;
+  }
+  nav{
+    width: 1900px;
+  }
+    #home{
+    width: 1900px;
+    height: 100%;
+   }
+   #home .img{
+    margin-top:500px;
+    margin-left:-600px ;
+
+   }
+   #home .text{
+    width: 500px;
+    margin-left: -300px;
+    height: 500px;
+   }
+   
+   #free-pizza .col-6{
+    margin-left:-300px ;
+ }
+ #welcome .col-6{
+    height: 600px;
+    width: 600px;
+    margin-left: -400px;
+ }
+ #welcome .mp{
+    margin-left:400px ;
+    margin-top: -600px;
+ }
+ #Menu .container{
+    margin-left:300px;
+ }
+ #Menu .col-4 .pizza{
+  margin-left: 270px;
+ }
+ #Menu h4 {
+    margin-left:550px;
+ }
+#menu .container{
+    
+  height: 1000px;
+}
+#menu .right{
+   
+
+}
+ #team .container{
+    margin-left: 300px;
+ }
+
+}
+
+
+@media (max-width:570px) {
+    body{
+      width: 2250px;
+    }
+    nav{
+      width: 2250px;
+    }
+      #home{
+      width: 2250px;
+      height: 100%;
+     }
+     #home .img{
+        margin-top:-100px;
+        margin-left:600px ;
+
+     }
+     #home .text{
+      width: 500px;
+      margin-left:350px;
+      height: 500px;
+     }
+
+     
+   #free-pizza .col-6{
+    margin-left:150px ;
+ }
+ #welcome .col-6{
+    height: 600px;
+    width: 600px;
+    margin-left: 150px;
+ }
+ #welcome .mp{
+    margin-left:1200px ;
+    margin-top: -600px;
+ }
+ #Menu .container{
+    margin-left:450px;
+ }
+ #Menu .col-4 .pizza{
+  margin-left: -100px;
+ }
+ #Menu h4 {
+    margin-left:-550px;
+ }
+
+ #menu .container{
+ width: 100%;
+ height: 1000px;
+
+ }
+ #menu  .left{
+margin-left: -800px;
+margin-top: 200px;
+width: 900px;
+ }
+ #menu .right{
+    margin-left: 550px;
+    margin-top: -650px;
+    width: 900px;
+ }
+ #menu .title{
+    margin-left: -300px;
+    margin-top:0px;
+ }
+ #menu .title h3{
+    margin-left: 550px;
+ 
+ }
+ #team .container{
+    margin-left: 500px;
+ }
+  }
+@media (max-width:500px) {
+    body{
+      width: 1900px;
+    }
+    nav{
+      width: 1900px;
+    }
+      #home{
+      width: 1900px;
+      height: 100%;
+     }
+     #home .img{
+      margin-top:500px;
+      margin-left:-600px ;
+  
+     }
+     #home .text{
+      width: 500px;
+      margin-left:150px;
+      height: 500px;
+     }
+  }
+
+
+@media (max-width:426px) {
+    body{
+      width: 1700px;
+    }
+    nav{
+      width: 1700px;
+    }
+      #home{
+      width: 1700px;
+      height: 100%;
+     }
+     #home .img{
+        margin-top:-400px;
+        margin-left:700px ;
+
+     }
+     #home .text{
+      width: 500px;
+      margin-left:10px;
+      height: 500px;
+     }
+
+     
+   #free-pizza .col-6{
+    margin-left:150px ;
+ }
+ #welcome .col-6{
+    height: 600px;
+    width: 600px;
+    margin-left: 150px;
+ }
+ #welcome .mp{
+    margin-top:00px;
+    margin-left:-50px ;
+ }
+ #Menu{
+    height: 2000px;
+ }
+ #Menu .container {
+   height: 200px;
+   width: 10000px;
+   margin-left:0px;
+   background-color: var(--bg-lightblack);
+
+
+ }
+ #Menu .right{
+  
+   margin-left: 500px;
+  
+ }
+ #Menu .left{
+margin-left: 500px;
+margin-top: 100px;
+  }
+  #Menu .pizza{
+    padding: 1000px;
+  }
+ #Menu .col-4{
+
+width: 50px;
+ }
+
+ #Menu .col-4 .pizza{
+  margin-left: -100px;
+ }
+ #Menu h4 {
+    margin-left:0px;
+ }
+#menu{
+   text-align: center !important;
+   padding-top: 100px;
+   height: 2000px;
+}
+ #menu .container{
+margin-left: 100px;
+
+ }
+ #menu  .left{
+margin-left: 200px;
+margin-top: 200px;
+width: 900px;
+ }
+ #menu .right{
+    margin-left:-900px;
+    margin-top: 850px;
+    width: 900px;
+ }
+ #menu .title{
+    margin-left: 0px;
+    margin-top:-100px;
+ }
+ #menu .title h3{
+    margin-left: 0px;
+ 
+ }
+ #team{
+    width: 100px;
+   margin-left: -20px;
+ }
+ #team .container{
+  margin-left: 220px;
+    
+ }
+ #team .member1 img{
+object-position: center;
+ }
+ #team .member1{
+    margin-left: -00px;
+ }
+ #team .member2{
+    margin-left: -500px;
+ }
+ #team .member3{
+    margin-left: -900px;
+ }
+ #footer {
+  margin-left:-30ch;
+  width: 1950px !important;
+  background-color: var(--bg-lightblack) !important;
+ }
+
+ #footer .row{
+    margin-left: 700px;
+ }
+  }
+#free-pizza {
+   
+    background:
+    
+    linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+    ),
+    
+    url(/Pizza-bar-website/img/background-pizza.jpg) !important;
+    color: var(--color-white);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+ padding: 150px;
+  
+    font-family: 'roboto';
+    font-size: 20px;
+}
+
+
+
+
+
+@media (max-width:320px) {
+    body{
+      width: 1300px;
+    }
+    nav{
+      width: 1300px;
+    }
+      #home{
+      width: 1300px;
+      height: 900px;
+     }
+     #home .pizza{
+     margin-left:   -20px;
+  
+     }
+     #home .price{
+        margin-left: -70px;
+     }
+     #home .text{
+      width: 500px;
+      margin-left:0px;
+      height: 500px;
+     }
+     
+     
+   #free-pizza .col-6{
+    margin-left:00px ;
+ }
+ 
+ #welcome .col-6{
+    height: 600px;
+    width: 600px;
+    margin-left: 0px;
+ }
+ #welcome .mp{
+    margin-left:400px ;
+    margin-top: -600px;
+ }
+ #Menu{
+    height: 2300px;
+    display: flex;
+ }
+ #Menu .container{
+    margin-left:0;
+    padding: 10px;
+
+ }
+ #Menu   .left{
+margin-left: 400px;
+margin-top: 100px;
+
+
+ }
+ #Menu   .right{
+    margin-left: 400px;
+    margin-top: 100px;
+
+    
+     }
+     #Menu   .mpizza{
+        
+         }
+ #Menu h4 {
+    margin-left:0px;
+ }
+ #menu{
+    height: 1800px;
+    margin-top: 100px;
+   
+ }
+#menu .container{
+    margin-left:0 ;
+
+}
+#menu .left{
+
+margin-left:200px ;
+}
+#menu .right{
+
+
+}
+ #team .container{
+    margin-left: 0px;
+ }
+
+}
+
+#free-pizza p {
+    color: var(--color-white);
+    margin-top: -50px;
+}
+
+
+#free-pizza h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    display: flex;
+    width: 600px;
+    color: var(--color-green);
+    font-weight: 100 ;
+}
+
+#free-pizza .btn {
+    width: 200px;
+    height: 50px;
+    background-color: var(--bg-green);
+    border-radius: 50px;
+    font-family: 'Roboto';
+    margin-top: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+   
+}
+
+#free-pizza .shoping-icon {
+    width: 30px;
+    padding-right: 10px;
+}
+
+#welcome {
+    padding: 100px;
+    text-align: left;
+    background-color: var(--bg-);
+}
+
+#welcome h3 {
+    color: var(--color-red);
+    font-family:     'Permanent Marker', cursive ;
+    font-size: 30px;
+    font-weight: 900;
+  
+}
+
+#welcome h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    font-weight: 100;
+    width: 500px;
+   
+}
+
+#welcome p {
+    font-family: 'Barlow';
+    font-size: 20px;
+    width: 500px;
+    padding: 10px;
+
+}
+
+#welcome .btn {
+    width: 220px;
+    height: 50px;
+    background-color: var(--bg-green);
+    border-radius: 50px;
+    font-family: 'Roboto';
+    margin-top: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#welcome .shoping-icon {
+    width: 30px;
+    
+
+}
+
+#welcome .pizza {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+    transition: transform 2s ;
+animation:infinite ;
+}
+
+
+#welcome .pizza:hover{
+    transform:rotate(360deg) scale(1.3)  ;
+  
+}
+#Menu {
+    background-color: var(--bg-lightblack);
+    color: var(--color-white);
+    display: flex;
+    text-align: center;
+    width: 100%;
+   
+    padding-bottom: 50px;
+}
+
+#Menu h4 {
+    padding-top: 50px;
+    color: var(--color-yellow);
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+#Menu h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    width: 900px;
+    margin-left: 200px;
+    font-weight: 100;
+}
+
+#Menu .col-4 {
+    margin-top: 10px;
+
+}
+
+#Menu h2 {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+}
+
+#Menu .name {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    color: var(--color-yellow);
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+#Menu p {
+    text-align: start;
+    margin-top: 0px;
+    width: 500px;
+    color: var(--color-lightgrey);
+
+}
+
+#Menu .first {
+    margin-top: -20px;
+}
+
+#Menu .second {
+    margin-top: 50px;
+}
+
+#Menu .third {
+    margin-top: 50px;
+}
+
+#Menu .p1 {
+    margin-top: 20px;
+}
+
+#Menu .p2 {
+    margin-top: -10px;
+}
+
+#Menu .p3 {
+    margin-top: -10px;
+}
+
+#Menu .pizza {
+    width: 290px;
+   
+    margin-left: 0px;
+    margin-top: 100px;
+    padding:30px ;
+transition: transform 1s ;
+animation:infinite ;
+}
+
+#Menu .pizza:hover{
+    transform: rotate(-360deg) scale(1.3);
+  
+}
+
+
+
+#Menu .right-menu {
+
+    margin-left: 900px;
+    margin-top: -520px;
+
+}
+
+#right-menu h2 {
+    margin-left: 130px;
+}
+
+#right-menu .name {
+    margin-left: 230px;
+}
+
+#right-menu p{
+  text-align: end;
+  margin-left: -100px;
+}
+
+#menu {
+    background-color: var(--bg-white);
+    color: var(--color-black);
+    display: flex;
+    text-align: center;
+    width: 100%;
+   padding-bottom: 50px;
+   
+}
+
+#menu h3 {
+    padding-top: 50px;
+    color: var(--color-red);
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 0px;
+
+}
+
+#menu h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    width: 900px;
+    margin-left: 200px;
+    font-weight:100;
+}
+
+#menu .col-6 {
+    
+}
+
+#menu .food h4 {
+    width: 100px;
+    height: 35px;
+    background-color: var(--bg-red);
+    color: var(--color-white);
+    border-radius: 10px;
+    font-family: 'roboto';
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+}
+
+/*backround dashed 1px*/
+#menu .price{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+
+#menu .money{
+    margin-left: 2%;
+    margin-top: -50px;
+}
+#menu p {
+    text-align: start;
+}
+#menu button{
+    width: 220px;
+    height: 50px;
+    background-color: var(--bg-red);
+    color: white;
+    border-radius: 50px;  
+    border: none;
+margin-top: 50px;
+ 
+}
+
+
+#team{
+    background-color: var(--bg-lightblack);
+    color: var(--color-white);
+    width: 100%;
+    height: 700px;
+ 
+}
+
+#team h4 {
+    padding-top: 50px;
+    color: var(--color-white);
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 600px;
+
+}
+
+
+
+#team h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    width: 900px;
+    margin-left: 400px;
+    font-weight:100;
+}
+
+#team .member1{
+    width: 300px;
+    height: 400px;
+    background-color:var(--bg-grey) ;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: var(--color-black);
+ transition: transform 500ms;
+    
+}
+#team .member1:hover{
+    transform: scale(1.1);
+}
+
+#team .member2{
+    width: 300px;
+    height: 400px;
+    background-color:var(--bg-grey) ;
+    border-radius: 10px;
+    margin-top: -400px;
+    margin-left: 330px;
+    color: var(--color-black);
+    
+    transition: transform 500ms;
+}
+#team .member2:hover{
+    transform: scale(1.1);
+}
+
+#team .member3{
+    width: 300px;
+    height: 400px;
+    background-color:var(--bg-grey) ;
+    border-radius: 10px;
+    margin-top: -400px;
+    margin-left:660px ;
+    color: var(--color-black);
+ 
+    transition: transform 500ms;
+
+}
+#team .member3:hover{
+    transform: scale(1.1);
+}
+
+#team .member4{
+    width: 300px;
+    height: 400px;
+    background-color:var(--bg-grey) ;
+    border-radius: 10px;
+    margin-top: -400px;
+    margin-left: 980px;
+    color: var(--color-black);
+     transition: transform 500ms;
+    
+}
+#team .member4:hover{
+    transform: scale(1.1);
+}
+#team .face{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+#team h3{
+    margin-left: 80px;
+    margin-top: 50px;
+    font-family:'roboto';
+    font-size: 30px;
+    font-weight: 700;
+}
+#team p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    font-family:'roboto';
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-lightgrey);
+}
+ img ,svg{
+    object-fit: cover;
+    background: cover;
+  
+}
+
+
+#footer{
+    background-color: var(--bg-lightblack);
+    color: var(--color-white);
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+#footer .line1{
+  width:550px;
+  height: 1px;
+  margin-left:300px;
+  margin-top: 120px;
+  background-color:  var(--bg-grey);
+}
+
+#footer .line2{
+    width:540px;
+    height: 1px;
+    margin-left:20px;
+    margin-top: 120px;
+    background-color:  var(--bg-grey);
+}
+
+#footer .pizza {
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#footer .col-12{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -800px;
+    margin-top: 200px;
+    text-align: center;
+  
+}
+#footer p {
+    color: var(--color-lightgrey);
+}
+
+#footer .adres{
+  
+margin-left: -300px
+    }
+
+   
+    #footer .social{
+        padding-bottom: 20px;
+        margin-left:20px ;
+    }
+    #footer .pizzas{
+        width: 70px;
+        display: flex;
+        margin-left: -1px;
+
+    }
+
